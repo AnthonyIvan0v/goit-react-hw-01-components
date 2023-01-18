@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 
 export const ProfileCard = styled.div`
   width: 300px;
-  margin: 10% auto;
+  margin: 5% auto 5% auto;
   padding-top: 10px;
   border: 1.5px solid orange;
   border-radius: 5%;
@@ -34,20 +34,22 @@ export const Location = styled.p`
 export const StatisticsList = styled.ul`
   list-style:none;
   display: flex;
-  gap: 10px;
   background-color: #f7f6f6;
-  justify-content: space-around;
   margin: 0 auto;
   padding: 0;
   width: 100%;
   height: 50px;
   align-items: basline;
+  overflow: hidden;
 `
 export const StatisticsListItem = styled.li`
   display:flex;
   flex-direction: column;
+  width: 100%;
   margin: 0 auto;
   justify-content: center;
+  border: 1px solid orange;
+  border-bottom: none;
 `
 export const Label = styled.span`
   color: gray;
