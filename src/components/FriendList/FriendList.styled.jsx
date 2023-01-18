@@ -11,7 +11,7 @@ export const Item = styled.li`
     padding: 8px;
 `
 export const List = styled.ul`
-    margin:25px auto;
+    margin:10px auto;
     padding:0;
     flex-direction: column;
     display:flex;
